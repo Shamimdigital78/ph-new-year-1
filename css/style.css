@@ -1,4 +1,79 @@
+* {
+  font-family: "Work Sans", sans-serif;
+}
 
-*{
-    font-family: 'Work Sans', sans-serif;
+.header {
+  background-image: url("../images/banner/banner1.png");
+  width: 1600px;
+  height: 808px;
+  margin-bottom: 130px;
+}
+/* nav sec */
+.nav-items {
+  display: flex;
+
+  list-style: none;
+}
+.nav-items a {
+  margin-left: 20px;
+  text-decoration: none;
+}
+/* nav end */
+/* banner start */
+.banner-contents {
+  text-align: end;
+  padding: 215px 230px 0 0;
+}
+.banner-title {
+  color: #151414;
+  text-align: right;
+  font-size: 65px;
+  font-weight: 700;
+}
+.banner-description {
+  color: #444343;
+  text-align: right;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.btn-primary {
+  padding: 15px 30px;
+  border-radius: 5px;
+  border: none;
+  background: #f15b22;
+  color: #fff;
+  text-align: right;
+  font-size: 20px;
+  font-weight: 600;
+}
+/* banner end */
+
+/* sec-2 */
+.sec-2 {
+  display: flex;
+  justify-content: space-around;
+  width: 1600px;
+  margin-top: 130px;
+  align-items: center;
+  /* background: #fff; */
+}
+.sec-2-left img {
+  width: 400px;
+}
+.sec-2-right h3 {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+}
+.sec-2-right p {
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+ 
+}
+.sec-2-right p>i{
+    color: skyblue;
+    font-size: 15px;
 }
